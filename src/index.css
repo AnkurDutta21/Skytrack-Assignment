@@ -17,3 +17,15 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+
+.gm-ui-hover-effect {
+  display: none !important;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
