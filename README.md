@@ -39,14 +39,14 @@ This component assumes you have a React project set up with the following librar
 
     ```
     cd your-repo-name
-    npm install 1    1. github.com github.com
+    npm install 
 
     ```
 
 4.  **Set up Google Maps API Key:** Create a `.env` file in the project root and add your Google Maps API key:
 
     ```
-    REACT_APP_GOOGLE_MAPS_API_KEY=YOUR_API_KEY
+    VITE_GOOGLE_MAPS_API_KEY=YOUR_API_KEY
 
     ```
 
