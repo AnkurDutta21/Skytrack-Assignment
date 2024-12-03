@@ -47,7 +47,7 @@ const ViewMarkers = ({ markers, onMarkerClick, selectedMarker, onDeleteMarker }:
                     </p>
                 </div>
             ) : (
-                <div className="space-y-3 max-h-28 lg:max-h-[70vh] overflow-y-auto scrollbar-hide">
+                <div className="space-y-3 max-h-36 lg:max-h-[70vh] overflow-y-auto scrollbar-hide">
                     {filteredMarkers.map((marker, idx) => (
                         <div
                             key={idx}
