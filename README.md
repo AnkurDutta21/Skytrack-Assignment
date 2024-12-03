@@ -8,14 +8,58 @@
 -   View information about saved markers in a list.
 -   Select and pan to specific markers.
 -   Reset the map view to the initial location and zoom level.
+
 ## Demo Video(Click on the image)
   [![Watch the video](https://github.com/user-attachments/assets/e31c9864-2bca-4303-903d-9470d7488ac1)](https://www.loom.com/share/a721438f4a0e4724b50b173ff1673c12?sid=d81ee8c5-6ff4-46d7-9bcb-01d383e54442)
+
+
 **Installation:**
 
 This component assumes you have a React project set up with the following libraries installed:
 -   `@react-google-maps/api`
 -   `react-icons` (optional, for using icons)
 -   `VITE_GOOGLE_MAPS_API_KEY` for rendering the map.
+
+**Steps:**
+
+1.  **Clone the Repository:**
+
+    Bash
+
+    ```
+    git clone https://github.com/your-username/your-repo-name.git
+
+    ```
+
+    Use code [with caution.](/faq#coding)
+
+3.  **Install Dependencies:**
+
+    Bash
+
+    ```
+    cd your-repo-name
+    npm install 1    1. github.com github.com
+
+    ```
+
+4.  **Set up Google Maps API Key:** Create a `.env` file in the project root and add your Google Maps API key:
+
+    ```
+    REACT_APP_GOOGLE_MAPS_API_KEY=YOUR_API_KEY
+
+    ```
+
+5.  **Start the Development Server:**
+
+    Bash
+
+    ```
+    npm start
+
+    ```
+
+This will start a development server, and you can access your application in your browser at `http://localhost:5173`.
 
 **Usage:**
 
