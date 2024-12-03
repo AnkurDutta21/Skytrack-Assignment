@@ -1,4 +1,4 @@
-## This document describes a React component for creating an interactive map using the Google Maps API.
+## React component for creating an interactive map using the Google Maps API.
 
 **Features:**
 -   Responsive Design: The map component is designed to adapt to different screen sizes, providing a seamless user experience on various devices.
