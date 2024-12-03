@@ -119,7 +119,7 @@ const Map = () => {
             <div className="relative flex-grow w-full h-full">
                 <GoogleMap
                     mapContainerStyle={mapStyles}
-                    zoom={13}
+                    zoom={10}
                     center={initialCenter}
                     options={mapOptions}
                     onClick={handleMapClick}
@@ -143,12 +143,12 @@ const Map = () => {
                         <MarkerF
                             position={initialCenter}
                             icon={{
-                                url: '/assets/your-location.png', 
-                                scaledSize: new window.google.maps.Size(32, 32), 
+                                url: '/assets/your-location.png',
+                                scaledSize: new window.google.maps.Size(32, 32),
                             }}
                         />
                     )}
-                    
+
 
                     {searchMarker && (
                         <MarkerF

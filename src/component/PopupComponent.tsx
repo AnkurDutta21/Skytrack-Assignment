@@ -23,7 +23,7 @@ const PopupComponent = ({ position, onClose, name }: { position: google.maps.Lat
                 onClick={stopPropagation}
                 onTouchStart={stopPropagation}
             >
-                <button 
+                <button
                     onClick={handleClose}
                     onTouchEnd={handleClose}
                     className="absolute top-2 right-2 text-gray-400 hover:text-gray-600 transition-colors"

@@ -64,8 +64,8 @@ const ViewMarkers = ({ markers, onMarkerClick, selectedMarker, onDeleteMarker }:
                                 <p className="font-medium text-gray-800 mb-1 flex items-center gap-2">
                                     <IoLocationSharp
                                         className={`w-4 h-4 ${selectedMarker?.lat === marker.position.lat
-                                                ? 'text-blue-500'
-                                                : 'text-gray-400'
+                                            ? 'text-blue-500'
+                                            : 'text-gray-400'
                                             }`}
                                     />
                                     {marker.name}
@@ -87,8 +87,8 @@ const ViewMarkers = ({ markers, onMarkerClick, selectedMarker, onDeleteMarker }:
                                     <FaTrash className="w-4 h-4" />
                                 </button>
                                 <MdChevronRight className={`w-5 h-5 transition-colors ${selectedMarker?.lat === marker.position.lat
-                                        ? 'text-blue-500'
-                                        : 'text-gray-300'
+                                    ? 'text-blue-500'
+                                    : 'text-gray-300'
                                     }`} />
                             </div>
                         </div>
